@@ -1,0 +1,22 @@
+Hooks
+
+
+Allow us to execute cucumber code at various points of cucumber life
+cycle. They are placed either in env.rb file in support folder or
+any ruby file in support folder.
+We can create hooks which will execute before and after all 
+scenario or particular scenario.
+
+Before
+After
+
+
+
+Logical OR
+
+
+Before('@HighPriority , @LowPriority')
+
+Logical And
+
+Before('@HighPriority', '@p1')
